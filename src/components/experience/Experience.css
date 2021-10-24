@@ -1,0 +1,102 @@
+#experience {
+  background: #fffaf2;
+  padding: 0 12.5%;
+  padding-top: 103px;
+  padding-bottom: 79px;
+}
+#experience h1 {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #333333;
+}
+.card-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card {
+  flex: 0 0 47%;
+  background: #ffffff;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  padding: 22px 26px;
+  margin-bottom: 64px;
+}
+.card-row {
+  display: flex;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+}
+.title-column {
+  flex: 0 1 60%;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #333333;
+  margin-bottom: 0.5rem;
+  min-height: 30px;
+}
+.date {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.link {
+  flex: 0 2 40%;
+  align-self: flex-end;
+  text-align: end;
+  /* word-break: break-all; */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #c66c49;
+}
+.link a {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #c66c49;
+  text-decoration-color: #c66c49;
+}
+.card-row p {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: justify;
+}
+@media screen and (max-width: 768px) {
+  #experience {
+    padding: 25px 34px;
+  }
+  #experience h1 {
+    margin-bottom: 0;
+  }
+  .card-section {
+    margin-top: 6px;
+    flex-direction: column;
+  }
+  .card {
+    margin-bottom: 20px;
+  }
+  .card:last-child {
+    margin-bottom: 0;
+  }
+}

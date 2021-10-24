@@ -1,0 +1,53 @@
+#education {
+  margin: 0 12.5%;
+  margin-top: 103px;
+  margin-bottom: 79px;
+}
+#education h1 {
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #333333;
+}
+.edu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.edu-card {
+  flex: 0 0 47%;
+  margin-bottom: 64px;
+  padding-top: 5px;
+}
+#edu h1 {
+  font-family: "Kaisei HarunoUmi", serif;
+}
+#edu {
+  margin: 64px 7%;
+}
+.MuiPaper-elevation1 {
+  box-shadow: 0px -2px 1px -1px rgba(0, 0, 0, 0.2) !important;
+}
+@media screen and (max-width: 768px) {
+  #education {
+    margin: 26px 34px;
+  }
+  #education h1 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 0;
+  }
+  .edu {
+    padding-top: 6px;
+    flex-direction: column;
+  }
+  .edu-card {
+    margin-bottom: 20px;
+  }
+  .edu-card:last-child {
+    margin-bottom: 0;
+  }
+}
